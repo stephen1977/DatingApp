@@ -8,7 +8,7 @@ import { AlertifyService } from '../_services/alertify.service';
 })
 export class AuthGuard implements CanActivate {
 
-  constructor(private authservice: AuthService, private router: Router, 
+  constructor(private authservice: AuthService, private router: Router,
     private alertify: AlertifyService) {
 
   }
